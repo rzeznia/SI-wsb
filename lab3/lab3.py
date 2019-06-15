@@ -27,7 +27,7 @@ plt.show()
 ##### DEGREE
 
 from sklearn.preprocessing import PolynomialFeatures
-poly_reg = PolynomialFeatures(degree = 3) # <- DEGREE
+poly_reg = PolynomialFeatures(degree = 4) # <- DEGREE
 
 X_poly = poly_reg.fit_transform(X)
 poly_reg.fit(X_poly, y)
